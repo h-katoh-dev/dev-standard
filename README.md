@@ -25,7 +25,20 @@ AI agents modifying this repository **must** follow [`AI_RULES.md`](./AI_RULES.m
 - [`docs/repository-structure.md`](./docs/repository-structure.md) — directory responsibilities
 - [`docs/contribution.md`](./docs/contribution.md) — Issue/PR workflow
 - [`AI_RULES.md`](./AI_RULES.md) — mandatory AI modification rules
+- [`catalog/features.md`](./catalog/features.md) — feature catalog
+- [`catalog/patterns.md`](./catalog/patterns.md) — reusable pattern catalog
 
-## Current focus
+## Current status
 
-The first proof of concept is **Authentication**. It will validate the complete lifecycle from feature definition through patterns, standards, implementation templates, variants, and eventual AI selection.
+The repository structure and core rules are in place. The current focus is validating the full lifecycle with **Authentication** as the first proof of concept:
+
+`Feature → Pattern → Standard → Template → Variant`
+
+The feature catalog currently covers common application concerns such as Authentication, User, Authorization, CRUD, Form, Validation, Error Handling, API, Database, and File Upload. Additional features are intentionally staged for later expansion.
+
+## Next focus
+
+1. Complete the Authentication proof of concept.
+2. Validate that each artifact is reusable and composable.
+3. Add additional standards only after the lifecycle has been proven.
+4. Improve AI-readable metadata and selection rules based on actual usage.
