@@ -15,4 +15,4 @@ Patterns are recognized solution approaches associated with Features. The catalo
 
 ## Status
 
-Authentication is the first proof-of-concept domain. Detailed pattern definitions should be created after the Standardization Model is agreed.
+Authentication is the first proof-of-concept domain. The first concrete Pattern definition is now available; additional patterns can be added through the same workflow.
