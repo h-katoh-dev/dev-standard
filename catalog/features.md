@@ -1,8 +1,8 @@
 # Feature Catalog
 
-Initial catalog. Classification will be refined through Issue #5.
+This catalog defines the initial scope of reusable application features. The MVP, Next, and Future groups establish the current implementation priority; individual features can be refined through dedicated Issues.
 
-## MVP candidates
+## MVP
 
 - Authentication
 - User
@@ -36,3 +36,5 @@ Initial catalog. Classification will be refined through Issue #5.
 - Cache
 - Realtime / WebSocket
 - Advanced authentication (Passkey, MFA)
+
+Authentication is the first proof-of-concept domain. Its patterns are tracked in `catalog/patterns.md`.
