@@ -1,10 +1,10 @@
 # Pattern Catalog
 
-Patterns are recognized solution approaches associated with Features. The catalog will grow through Feature and Pattern Issues.
+Patterns are reusable solution approaches associated with Features. Add or refine entries through dedicated Feature and Pattern Issues.
 
 ## Authentication
 
-- Email + Password
+- [Email + Password](../patterns/authentication/email-password.md) — first concrete pattern definition
 - OAuth
 - Passkey
 - MFA / 2FA
@@ -15,4 +15,4 @@ Patterns are recognized solution approaches associated with Features. The catalo
 
 ## Status
 
-Authentication is the first proof-of-concept domain. The first concrete Pattern definition is now available; additional patterns can be added through the same workflow.
+Authentication is the first proof-of-concept domain. The Email + Password pattern is documented; the remaining entries are candidates, not completed specifications. Use the concrete pattern as the reference when adding the next definition.
